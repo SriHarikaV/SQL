@@ -1,3 +1,4 @@
+"""Identify the sport which was played in all summer olympics"""
 with t1 as 
 	(select name, count(1) as total_medals
 	from OLYMPICS_HISTORY
